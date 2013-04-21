@@ -24,6 +24,9 @@
 		$cell = (array) $_POST['cell'];
 		$new_config = (string) "";
 		while($i <= (count($_POST['state']) - 1)){
+			if($cell[$i] == -1) {
+				$x[$i] = 0;
+			}
 			if($cell[$i] == 0) {
 				$x[$i] = 35;
 				$y[$i] = 505;
