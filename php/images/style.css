@@ -1,0 +1,24 @@
+body, td, font, p, div, input, textarea { font:11px Tahoma; }
+body { margin:0px 0px 10px 0px; padding:0px; background-color:#ffffff; }
+
+a { color:#014e82; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+img { border:0px; }
+form { margin:0px; padding:0px; }
+
+li { padding:0px; margin:5px 0px 5px 0px; }
+ul, ol { padding:0px; margin:0px 0px 0px 22px; }
+
+select { font:bold 11px Tahoma; color:#000000; }
+textarea { padding:2px; border:1px solid #777777; overflow:auto; }
+legend { font:bold 11px Tahoma; color:#014e82; }
+fieldset { padding:5px; margin:0px; }
+label { font:10px Tahoma; cursor:pointer; }
+
+h3 { font:bold 14px Tahoma; color:#444444; margin:0px; padding:0px; }
+h4 { font:bold 14px Tahoma; color:#014e82; margin:0px 0px 10px 0px; padding:0px; }
+
+table { border-collapse:collapse; background-color:#f6faff; }
+table td { border:1px solid #539763; padding:3px; text-align:center; }
+table td.menu-link { font-weight:bold; cursor:pointer; }
